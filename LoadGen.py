@@ -67,10 +67,10 @@ for i in range(N_Impact):
     
     Comment_0 = 'C       Impact number '+str(i+1)+"\n"
     if i==N_Impact-1:
-        f = "     +  p0*EXP(-(((X+"+str(-Random_Position[i,0])[0:6]+")**2+(Y"+str(-Random_Position[i,1])[0:6]+\
+        f = "     +  p0*EXP(-(((X-"+str(Random_Position[i,0])[0:6]+")**2+(Y-"+str(Random_Position[i,1])[0:6]+\
             ")**2)/(R*R)))*\n     +  EXP(-a*((2*(stepTime-"+str(Random_Time[i])+")/tc-1)**2))\n"    
     elif i<N_Impact-1:
-        f = "     +  p0*EXP(-(((X+"+str(-Random_Position[i,0])[0:6]+")**2+(Y"+str(-Random_Position[i,1])[0:6]+\
+        f = "     +  p0*EXP(-(((X-"+str(Random_Position[i,0])[0:6]+")**2+(Y-"+str(Random_Position[i,1])[0:6]+\
             ")**2)/(R*R)))*\n     +  EXP(-a*((2*(stepTime-"+str(Random_Time[i])+")/tc-1)**2))+\n"  
                 
     file.write(Comment_0); file.write(f);
