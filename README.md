@@ -5,7 +5,7 @@ for the Linkedin video: https://www.linkedin.com/feed/update/urn:li:activity:702
 Written on Intel® Fortran Version 19.0.5 and python 3.9
 
 # AUTHOR
-Name: Yougbin LIM\
+Name: Youngbin LIM\
 E-mail: lyb0684@naver.com
 
 # Run command
