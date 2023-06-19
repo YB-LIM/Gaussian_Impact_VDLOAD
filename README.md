@@ -14,3 +14,7 @@ E-mail: lyb0684@naver.com
 
 # Run command
 abaqus job=Periodic user=Gaussian_Random.f int cpus=(number of cpus)
+
+
+# Buy me a coffee
+<a href="https://www.buymeacoffee.com/lyb280199G" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
